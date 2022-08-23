@@ -1,0 +1,214 @@
+/* -- font -- */
+@font-face {
+    font-family: "Rubik";
+    src: url("../fonts/Rubik.ttf");
+}
+body{
+    font-family: "Rubik";
+}
+/* -- Generic-Classes Start -- */
+/* -- Typography -- */
+.text_primary{
+    font-size: 3.12rem;
+    font-weight: 500;
+    color: #0B132A;
+    margin: 0;
+}
+.text_secondary{
+    font-size: 2.19rem;
+    font-weight: 500;
+    color: #0B132A;
+    margin: 0;
+}
+.text_medium{
+    font-size: 1.13rem;
+    color: #0B132A;
+    font-weight: 500;
+    margin: 0;
+}
+.text_counter{
+    color: #0B132A;
+    font-size: 1.56rem;
+    font-weight: 700;
+    margin: 0;
+}
+.text_counter-p{
+    font-size: 1.25rem;
+    color: #4F5665;
+    margin: 0;
+}
+.text_plan{
+	color: #0B132A;
+    font-size: 1.56rem;
+    font-weight: 500;
+    margin: 0;
+}
+.text_regular{
+    color: #4F5665 !important;
+    margin: 0;
+}
+.text_small{
+    font-size: 0.87rem;
+    color: #4F5665;
+    margin: 0;
+}
+.text_grey{
+    color: #AFB5C0;
+    margin: 0;
+}
+.bold{
+    font-weight: 900;
+}
+/* -- Buttons -- */
+.btn_primary{
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+	border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    box-shadow: 0px 25px 25px rgba(245, 56, 56, 0.35);
+}
+.btn_secondary{
+    width: 177.88px;
+    height: 45px;
+    background: #F53838;
+	border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.btn_danger{
+    width: 177.88px;
+    height: 45px;
+	background: #FFFFFF;
+	color: #F53838;
+	border: 2px solid #F53838;
+    border-radius: 50px;
+}
+.btn_white{
+    width: 150px;
+    height: 45px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* -- Color-Scheme -- */
+.bg_primary{
+    background: #F6F6F6;
+}
+.bg_secondary{
+    background: #F8F8F8;
+}
+.text_black{
+	color: #0B132A;
+    font-weight: 500;
+}
+.text_danger{
+	color: #F53855;
+    font-weight: 500;
+}
+.border-left{
+    border-left: 2px solid #EEEFF2;
+}
+/* -- Generic-Classes Ends -- */
+/* -- Custom-CSS Start -- */
+.main{
+    min-height: 550px;
+}
+.btn_shadow{
+    width: 211px;
+    height: 60px;
+    left: -3%;
+    bottom: 0;
+}
+.plan{
+    min-height: 1150px;
+}
+.jumbotron{
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.jumbotron_plan{
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+.jumbotron_danger{
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+}
+.counter .counter_shadow{
+    z-index: 0;
+    top: 10px;
+}
+.global_txt{
+    margin-top: -3.44rem;
+}
+.slider_top{
+    max-width: 100%;
+    margin-left: 80px;
+   overflow-x: hidden;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    display: none;
+}
+.carousel-control-prev,.carousel-control-next{
+    position: static;
+    width: 0;
+}
+.carousel-control-prev img{
+    margin-top: 3.75rem;
+}
+.carousel-control-next img{
+    margin: 1.89rem 0 0 2.5rem;
+}
+.card{
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    min-height: 230px;
+}
+.card_danger{
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    min-height: 230px;
+}
+.footer{
+    margin-top: -8.13rem;
+}
+.footer_details{
+    padding-top: 7.5rem;
+}
+/* -- Custom-CSS -- */
+/* -- media_query -- */     
+
+@media (max-width : 991px) {
+    #invisible {
+        display: none;
+    }
+    .border-left {
+        border-left: none !important;
+    }
+    .global_txt {
+        margin-top: 2.5rem;
+    }
+    .main {
+        margin-top: 2.5rem;
+    }
+    #indicators{
+        display: none;
+    }
+    .slider_top {
+        margin-left: 0; 
+    }
+}
+@media (max-width : 539px) {
+    #subscribe_btn{
+        margin-top: 1.88rem;
+    }
+}
+
+
+
